@@ -23,7 +23,7 @@ This folder provides a clean starter implementation for the Newton/N-body part:
 ## Demo scripts
 
 - `demo_single_orbit_fixed.m`
-  - fixed-step order test for circular orbit
+  - fixed step order test for circular orbit
   - binary search for largest step satisfying a target error
   - Richardson extrapolation comparison
 
@@ -32,30 +32,29 @@ This folder provides a clean starter implementation for the Newton/N-body part:
   - tolerance sweep and accepted/rejected-step diagnostics
 
 - `demo_adaptive_explain.m`
-  - teaching-oriented plots to explain adaptive behavior
   - circular exact-vs-numerical comparison
-  - normalized one-orbit x(t) comparison
-  - periapsis vs step-size relation for the hardest case
+  - normalized one orbit x(t) comparison
+  - periapsis vs step size relation for the hardest case
 
 - `demo_nbody_case.m`
   - `N=5` multi-body run with trajectory, energy, angular momentum diagnostics
   - optional MP4 movie output
 
 - `demo_verlet_vs_bs23.m`
-  - long-time comparison of velocity-Verlet vs BS-RK23
+  - long time comparison of velocity-Verlet vs BS-RK23
   - trajectory, energy drift, and cost comparison
 
 - `demo_symplectic_energy_compare.m`
-  - project-A style long-time energy comparison
-  - fixed-step symplectic vs variable-step and non-symplectic methods
+  - project-A style long time energy comparison
+  - fixed step symplectic vs variable step and non-symplectic methods
 
 - `demo_phase_space_area.m`
   - project-C style phase-space area preservation experiment
   - cloud-area evolution in (q,p) for oscillator
-  - includes state-dependent variable-step maps to show geometric drift
+  - includes state dependent variable step maps to show geometric drift
 
 - `demo_sundman_verlet_compare.m`
-  - high-eccentricity comparison: fixed Verlet vs naive adaptive Verlet vs Sundman-Verlet
+  - high eccentricity comparison: fixed Verlet vs naive adaptive Verlet vs Sundman-Verlet
   - compares energy drift, radius drift, and effective physical step size
 
 - `demo_canonical_sundman_compare.m`
