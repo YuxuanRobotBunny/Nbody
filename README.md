@@ -1,4 +1,4 @@
-# N-body MATLAB Starter (Assignment Part 2)
+# N-body 
 
 This folder provides a clean starter implementation for the Newton/N-body part:
 
