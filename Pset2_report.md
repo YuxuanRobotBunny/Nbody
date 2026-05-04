@@ -1,10 +1,7 @@
-
-This submission covers both parts of `Pset2.pdf`:
-
 1. Temporal discretization of KdV with pseudo-spectral spatial discretization.
 2. Newton/N-body dynamics with Bogacki-Shampine RK23 and Verlet integrators.
 
-All computations were carried out in MATLAB. The code is organized so that the KdV and N-body solvers are reusable beyond the specific experiments required by the assignment.
+All computations were carried out in MATLAB. 
 
 ## Part 1: KdV
 
@@ -139,9 +136,3 @@ The expected qualitative result is:
 - `demo_single_orbit_adaptive.m`
 - `demo_nbody_case.m`
 - `demo_verlet_vs_bs23.m`
-
-## Notes
-
-- The KdV scripts are written to produce the figures and tables needed for the assignment, but the exact “best” time-step choices should be determined from the actual output on the target machine.
-- De-aliasing is optional here and was left disabled by default so that the implementation remains close to the assignment statement.
-- The optional movie-writing flags are disabled by default to keep the scripts lightweight.
